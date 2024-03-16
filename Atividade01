@@ -1,0 +1,14 @@
+package Aula02;
+
+public class Atividade01 {
+	public static void main (String[] args) {
+		String sexo = "M";
+		String nome = "Andrei Biscaia";
+		int idade = 28;
+		
+		System.out.println("Sexo:" +sexo);
+		System.out.println("Nome:" +nome);
+		System.out.println("Idade:" +idade);
+	}
+
+}
