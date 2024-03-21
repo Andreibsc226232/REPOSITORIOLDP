@@ -1,0 +1,26 @@
+package Aula03;
+import java.util.Scanner;
+
+				public class Desafio {
+				public static void main (String [] args) {
+				Scanner scanner = new Scanner(System.in);
+				
+				//Solicitando e lendo o nome da Pessoa
+				System.out.println("Digite o nome da Pessoa: ");
+				String nome =  scanner.nextLine();
+				
+				//Solicitando e lendo o Signo da Pessoa
+				System.out.println("Digite o signo da Pessoa: ");
+				String signo =  scanner.nextLine();
+				
+				//Solicitando e lendo a idade da Pessoa
+				System.out.println("Digite a idade da Pessoa: " + nome + ": ");
+				int idade = scanner.nextInt();
+				
+				//Emitindo nome e idade da pessoa
+				System.out.println(nome+ " tem "+ idade+ "anos. Seu Signo é: " + signo);
+	
+				scanner.close();
+
+
+}}
