@@ -1,0 +1,24 @@
+package Aula03;
+
+import java.util.Scanner;
+
+public class Desafio04 {
+	public static void main (String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Digite a nota: ");
+	int nota = scanner.nextInt();
+	String P = ("Aluno aprovado, Parabéns!");
+	
+	{
+		if (nota >=90)
+			
+			System.out.println(P);
+		else if (nota >= 70)
+			System.out.println("O Aluno está Aprovado!");
+	
+		else
+		System.out.println("O Aluno esta Reprovado!");
+
+	}
+	}}
+	
